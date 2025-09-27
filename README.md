@@ -2,11 +2,11 @@
 
 ## What this does
 
--> Click the icon.
--> Type a task.
--> The extension asks OpenAI or Anthropic to write code.
--> A new tab opens. Tampermonkey shows Install.
--> Click Install.
+- Click the icon.
+- Type a task.
+- The extension asks OpenAI or Anthropic to write code.
+- A new tab opens. Tampermonkey shows Install.
+- Click Install.
 
 ## Setup
 

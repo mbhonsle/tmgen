@@ -1,4 +1,4 @@
-# Tampermonkey Script Generator (MV3)
+# Tampermonkey Script Generator
 
 ## What this does
 

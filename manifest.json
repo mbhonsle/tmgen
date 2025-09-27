@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AI Tampermonkey Script Generator",
+  "description": "Type a task & get a Tampermonkey userscript & install.",
+  "version": "0.1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "TM Gen"
+  },
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": [
+    "https://api.openai.com/*",
+    "https://api.anthropic.com/*"
+  ],
+  "options_page": "options.html"
+}

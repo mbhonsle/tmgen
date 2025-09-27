@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TM Gen — Options</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 16px;
+        max-width: 680px;
+      }
+      input {
+        width: 100%;
+      }
+      label {
+        display: block;
+        margin: 12px 0 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>API Keys</h2>
+    <p>Keys are stored locally by your browser.</p>
+
+    <label>OpenAI API key</label>
+    <input id="openaiKey" type="password" placeholder="sk-…" />
+
+    <label>Anthropic API key</label>
+    <input id="anthropicKey" type="password" placeholder="anthropic-…" />
+
+    <button id="save">Save</button>
+    <span id="status"></span>
+
+    <script src="options.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI TM Gen</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 12px;
+      }
+      textarea {
+        width: 100%;
+        height: 120px;
+      }
+      label {
+        display: block;
+        margin: 8px 0 4px;
+      }
+      select,
+      input[type="text"] {
+        width: 100%;
+      }
+      button {
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px;
+      }
+      small {
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Tampermonkey Script Generator</h3>
+    <p>
+      <small>Set API keys in <a href="#" id="openOptions">Options</a>.</small>
+    </p>
+
+    <label>Provider</label>
+    <select id="provider">
+      <option value="openai">OpenAI</option>
+      <option value="anthropic">Anthropic</option>
+    </select>
+
+    <label>Model (optional)</label>
+    <input
+      id="model"
+      type="text"
+      placeholder="e.g. gpt-4.1-mini or claude-3-5-sonnet"
+    />
+
+    <label>What should the script do?</label>
+    <textarea
+      id="task"
+      placeholder='Example: On example.com, click the "Load More" button until end, then export all titles to CSV.'
+    ></textarea>
+
+    <button id="goBtn">Generate & Install</button>
+    <p id="status"></p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,5 +1,7 @@
 # Tampermonkey Script Generator
 
+>An LLM (OpenAI and Anthropic) based Tampermonkey script generator.
+
 ## What this does
 
 - Click the icon.

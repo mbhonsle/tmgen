@@ -1,6 +1,6 @@
-:monkey: # Tampermonkey Script Generator
+# Tampermonkey Script Generator
 
->An LLM (OpenAI and Anthropic) based Tampermonkey script generator.
+> :monkey: An LLM (OpenAI and Anthropic) based Tampermonkey script generator.
 
 ## What this does
 

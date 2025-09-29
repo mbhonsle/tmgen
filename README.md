@@ -35,4 +35,3 @@
 ## Safety
 
 - Do not put secrets or passwords in the task.
-- The script runs on the sites you allow in `@match`.
